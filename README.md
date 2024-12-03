@@ -1,5 +1,5 @@
-# Rappidu Pedidos
-Bem-vindo ao repositório da aplicação rappidu-cadastro. Este projeto é um sistema desenvolvido em Spring Boot, focado no gerenciamento de cadastros.
+# Rappidu Produtos
+Bem-vindo ao repositório da aplicação rappidu-produtos. Este projeto é um sistema desenvolvido em Spring Boot, focado no gerenciamento de produtos.
 
 ## Requisitos
 Certifique-se de que os seguintes requisitos estão instalados no seu ambiente:
