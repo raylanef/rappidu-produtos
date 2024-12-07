@@ -102,8 +102,8 @@
                         <exclude>**/entities/**</exclude>
                         <exclude>**/dto/**</exclude>
                         <exclude>**/exceptions/**</exclude>
-                        <exclude>**/mappers/**</exclude>
-                        <exclude>**/persistence/**</exclude>
+                        <exclude>**/infra/mappers/**</exclude>
+                        <exclude>**/infra/persistence/**</exclude>
                         <exclude>**/domain/**</exclude>
                     </excludes>
                 </configuration>
