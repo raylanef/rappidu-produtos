@@ -77,6 +77,18 @@
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.5.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-inline</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.14.12</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -90,6 +102,8 @@
                         <exclude>**/entities/**</exclude>
                         <exclude>**/dto/**</exclude>
                         <exclude>**/exceptions/**</exclude>
+                        <exclude>**/mappers/**</exclude>
+                        <exclude>**/persistence/**</exclude>
                     </excludes>
                 </configuration>
                 <executions>
