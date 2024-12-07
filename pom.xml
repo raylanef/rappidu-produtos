@@ -104,6 +104,7 @@
                         <exclude>**/exceptions/**</exclude>
                         <exclude>**/mappers/**</exclude>
                         <exclude>**/persistence/**</exclude>
+                        <exclude>**/domain/**</exclude>
                     </excludes>
                 </configuration>
                 <executions>
